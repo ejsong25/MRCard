@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	request.setCharacterEncoding("UTF-8");
 	String cp = request.getContextPath();
@@ -64,7 +65,7 @@ body {
 </c:choose>
 	<div class="gif-container" align="center">
 		<font style="color: var(--accent-color); font-size: 80px; margin-left: 300px;">
-		<b><span style="color: #5CD1E5;">MR Pay</span> Comming<br> Soon</b></font>
+		<b><span style="color: #5CD1E5;">MR Pay</span> Comming&emsp;&emsp;<br> Soon</b></font>
 		<iframe src="https://giphy.com/embed/SpoZWVAYlMCMGcLfqU" width="500"
 			height="500" frameBorder="0"></iframe>
 	</div>
